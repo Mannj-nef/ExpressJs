@@ -1,5 +1,4 @@
 import CourseServises from "../services/CourseServices.js";
-
 class CourseController {
   // [GET] /api/v1/courses
   async index(req, res) {

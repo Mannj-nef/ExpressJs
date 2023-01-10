@@ -7,6 +7,10 @@ function useRouter(app) {
 
   // users
   app.use("/api/v1/users", usersRouter);
+
+  app.get("*", (req, res) => {
+    res.status(404).json("Not fount");
+  });
 }
 
 export default { useRouter };

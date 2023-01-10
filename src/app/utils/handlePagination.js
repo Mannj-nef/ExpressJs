@@ -10,7 +10,6 @@ const handlePafination = (colection, query) => {
     .skip(checkSkipPage);
 
   return data;
-  //   return 0;
 };
 
 export default handlePafination;
